@@ -6,6 +6,18 @@ Este repositorio contiene el código fuente del backend de nuestro proyecto Lara
 
 Antes de comenzar, asegúrate de tener instalado PHP (versión 8.2.22 o superior), Composer, y MySQL en tu máquina local.
 
+## Api
+- **Api https://randomuser.me/**: Ruta `http://localhost:8000/random-users` (El puierto puede variar dependiendo de tu configuracion), la cual retorna 5 usuarios y te dice cual es la letra más utilizada en los
+nombres completos de las 5 personas, y evuelve un array de esta manera.
+`{
+    "users": [
+        {
+    ..
+        }
+    ],
+    "most_common_letter": ".."
+}`
+
 ## Instalación
 
 Para instalar este proyecto, sigue estos pasos:
